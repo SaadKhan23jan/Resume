@@ -17,6 +17,7 @@ else:
 
 app = Dash(__name__, background_callback_manager=background_callback_manager, use_pages=True, external_stylesheets=[dbc.themes.SUPERHERO])
 app.title = 'Saad Khan Portfolio'
+server = app.server
 
 header = dbc.Navbar(
     dbc.Container(
